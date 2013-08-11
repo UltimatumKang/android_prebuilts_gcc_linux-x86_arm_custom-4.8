@@ -17,7 +17,7 @@ old_library='libbfd.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/datass/crosstool-ng/.build/arm-cortexa9_neon-linux-gnueabihf/build/build-binutils-for-target/bfd/../libiberty/pic -liberty'
+dependency_libs=' -L/home/datass/tc/crosstool-ng/.build/arm-cortexa9_neon-linux-gnueabihf/build/build-binutils-for-target/bfd/../libiberty/pic -liberty'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

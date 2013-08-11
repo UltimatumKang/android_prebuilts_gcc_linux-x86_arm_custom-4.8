@@ -110,7 +110,7 @@
 
 /* Define if gcc should always pass --build-id to linker. */
 #ifndef USED_FOR_TARGET
-#define ENABLE_LD_BUILDID 1
+/* #undef ENABLE_LD_BUILDID */
 #endif
 
 
@@ -1229,7 +1229,7 @@
 #endif
 
 
-/* Define if your AIX linker supports a large TOC. */
+/* Define if your PowerPC64 linker supports a large TOC. */
 #ifndef USED_FOR_TARGET
 /* #undef HAVE_LD_LARGE_TOC */
 #endif
